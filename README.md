@@ -2,7 +2,14 @@
 ### Project overview: Supervised Learning 
 Project: Finding Donors for CharityML. The project is part of Udacity 'Introducton to Machine Learning with Tensorflow' excersises. 
 
-In this project supervised learning techniques are applied on data collected on U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. The project includes exploration of the input data, preprocessing and transforming the input data to be suitable for supervised learning methods. Supervised learning techniques are assessed, and three most suitable for the data and the problem are selected and applied to predict the individual income level based on other sociodemographics features. Each of the models performance is evaluated and the most suitable supervised learning model is selected. For the selected model hyperparameter optimization is conducted to optimze model performance. Final model prediction performance is evaluated considering the given data. 
+In this project supervised learning techniques are applied on data collected on U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. The project includes 
+- exploration of the input data, 
+- preprocessing and transforming the input data to be suitable for supervised learning methods
+- alternative supervised learning techniques are assessed, and three most suitable for the data and the problem are selected 
+- selected models are applied to predict the income class based on other sociodemographics features
+- each of the models performance is evaluated and the most suitable supervised learning model is selected
+- for the selected model hyperparameter optimization is conducted to optimze model performance
+- final model prediction performance is evaluated considering the given data. 
 
 
 ### Install
@@ -20,7 +27,7 @@ You will also need to have Juypyter software installed to run and execute an [iP
 
 - `finding_donors.ipynb` Jypter notebook file with the main code and analysis 
 - `visuals.py` Python scripts to visualize intermeidate results
-- `census.csv` U.S. census data (see Data for detailed description) - You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+- `census.csv` U.S. census data (see Data for detailed description)
 
 ### Run
 
